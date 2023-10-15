@@ -1,0 +1,95 @@
+
+body {
+    animation: fadeInAnimation ease 5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    background-color: black;
+}
+ 
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}
+
+@font-face {
+    font-family: "InkPuppet-vm6Yy";
+    src: url(./fonts/InkPuppet-vm6Yy.otf);
+}
+.container{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    color: white;
+    transform: translate(-50%, -50%);
+    font-size: 27px;
+    text-align: center;
+    width: 50vw;
+    margin-top: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+#getQuoteButton{
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    padding: 12px;
+    font-size: 13px;
+    text-align: center;
+    align-self: flex-end;
+    width: 140px;
+    align-self: center;
+    cursor: pointer;
+    transition: 200ms;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#getQuoteButton:hover {
+    transition: 200ms;
+    color: black;
+    background-color: white;
+}
+
+#quote-author{
+    text-align: right;
+    font-style: italic;
+    font-size: 22px; 
+    margin-top: 20px;   
+    text-decoration: underline;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+
+h1{
+    margin-top: 120px;
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#category-select{
+    cursor: pointer;
+    align-self: flex-start;
+    text-align: center;
+    background: black;
+    color: white;
+    width: 150px;
+    padding: 10px;
+    height: 40px;
+    border: 1px solid white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.bottom-flex{
+    margin-top: 120px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#quote-text{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+}
